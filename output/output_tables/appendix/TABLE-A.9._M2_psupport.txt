@@ -1,0 +1,80 @@
+		(1)
+VARIABLES	LABELS	Mechanism: Parental Support
+		
+sex_female	Factor: Gender (1=Girl)	0.0524
+		(0.109)
+spanish	Factor: Ethnic Origin (1=Native)	-0.0856
+		(0.116)
+ses_high	Factor: Father's SES (1=High)	0.143
+		(0.122)
+essay_cc_high	Factor: Essay Cultural Capital Signal (1=High)	0.496***
+		(0.0868)
+essay_good	Factor: Essay Quality (1=High)	1.115***
+		(0.0880)
+allpassed	Factor: Number of Subjects Passed/Failed (1=All Passed)	0.621***
+		(0.104)
+behaviour_good	Factor: Behaviour and Effort (1=Good)	2.180***
+		(0.0943)
+q10_1	Birth year-Respondent	-0.0151*
+		(0.00754)
+q9_i	Gender-Respondent	-0.0308
+		(0.0893)
+3.q11a_1_i	University/Faculty Anonymized ID = 3	0.154*
+		(0.0864)
+4.q11a_1_i	University/Faculty Anonymized ID = 4	-0.308***
+		(0.0771)
+5.q11a_1_i	University/Faculty Anonymized ID = 5	-0.946***
+		(0.100)
+6.q11a_1_i	University/Faculty Anonymized ID = 6	0.0368
+		(0.104)
+7.q11a_1_i	University/Faculty Anonymized ID = 7	0.246***
+		(0.0678)
+8.q11a_1_i	University/Faculty Anonymized ID = 8	0.0454
+		(0.0494)
+10.q11a_1_i	University/Faculty Anonymized ID = 10	-0.280***
+		(0.0517)
+11.q11a_1_i	University/Faculty Anonymized ID = 11	0.0233
+		(0.0541)
+12.q11a_1_i	University/Faculty Anonymized ID = 12	0.595***
+		(0.0413)
+13.q11a_1_i	University/Faculty Anonymized ID = 13	0.0603
+		(0.0467)
+14.q11a_1_i	University/Faculty Anonymized ID = 14	0.0567
+		(0.0408)
+15.q11a_1_i	University/Faculty Anonymized ID = 15	-0.165**
+		(0.0617)
+16.q11a_1_i	University/Faculty Anonymized ID = 16	-0.562***
+		(0.0535)
+17.q11a_1_i	University/Faculty Anonymized ID = 17	0.326***
+		(0.0488)
+18.q11a_1_i	University/Faculty Anonymized ID = 18	0.126
+		(0.0825)
+20.q11a_1_i	University/Faculty Anonymized ID = 20	0.106
+		(0.105)
+21.q11a_1_i	University/Faculty Anonymized ID = 21	0.387***
+		(0.0387)
+22.q11a_1_i	University/Faculty Anonymized ID = 22	-0.271***
+		(0.0641)
+2.q11b_1_i	BA Grade-Respondent = 2, 2º	0.149
+		(0.0988)
+3.q11b_1_i	BA Grade-Respondent = 3, 3º	0.364**
+		(0.142)
+4.q11b_1_i	BA Grade-Respondent = 4, 4º	0.283*
+		(0.157)
+5.q11b_1_i	BA Grade-Respondent = 5, 5º	-0.189
+		(0.339)
+7.q11b_1_i	BA Grade-Respondent = 7, Ya graduado	0.317
+		(0.408)
+q12_i	Grade retention-Respondent	-0.128
+		(0.214)
+q13_i	SES-Respondent	-0.250***
+		(0.0756)
+q14_i	Migrant-Respondent	-0.0865
+		(0.299)
+q15_i	Parental migrants-Respodent	0.508**
+		(0.196)
+		
+Observations		1,717
+R-squared		0.256
+Robust standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

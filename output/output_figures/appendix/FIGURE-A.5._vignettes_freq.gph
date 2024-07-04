@@ -1,0 +1,265 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00007:00007:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway (histogram vignette if __000000 [], ytitle(`"Frequency"') xtitle(`"Vignette ID"') legend(cols(1)) barwidth(-99) plotregion(margin(b=0))   legend(nodraw) frequency start(.5) width(1) xlabel(1(2)128, angle(vertical)) )     ||  ||
+*! command_date:  4 Jul 2024
+*! command_time: 18:18:41
+*! datafile: data/STATA/cleandataset.dta
+*! datafile_date:  9 Nov 2023 16:18
+*! scheme: white_ptol
+*! naturallywhite: 1
+*! xsize: 6
+*! ysize: 4
+*! end
+<BeginItem> serset K137b2f08 
+<BeginSerset>
+<BeginSeries>
+.name = `"_height"'
+.label = `"Frequency"'
+.format = `"%6.4g"'
+.type.set numeric
+.min =  4
+.max =  24
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  19
+<EndSeries>
+<BeginSeries>
+.name = `"zero"'
+.label = `"Frequency"'
+.format = `"%8.0g"'
+.type.set numeric
+.min =  0
+.max =  0
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"Vignette ID"'
+.format = `"%82.0g"'
+.type.set numeric
+.min =  .5
+.max =  128
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  129
+.lab_offset = (.)
+.vlabs.Declare __D_1 = `"Male Spanish High-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_2 = `"Male Spanish High-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_3 = `"Male Spanish High-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_4 = `"Male Spanish High-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_5 = `"Male Spanish High-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_6 = `"Male Spanish High-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_7 = `"Male Spanish High-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_8 = `"Male Spanish High-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_9 = `"Male Spanish High-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_10 = `"Male Spanish High-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_11 = `"Male Spanish High-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_12 = `"Male Spanish High-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_13 = `"Male Spanish High-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_14 = `"Male Spanish High-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_15 = `"Male Spanish High-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_16 = `"Male Spanish High-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_17 = `"Male Spanish Low-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_18 = `"Male Spanish Low-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_19 = `"Male Spanish Low-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_20 = `"Male Spanish Low-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_21 = `"Male Spanish Low-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_22 = `"Male Spanish Low-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_23 = `"Male Spanish Low-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_24 = `"Male Spanish Low-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_25 = `"Male Spanish Low-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_26 = `"Male Spanish Low-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_27 = `"Male Spanish Low-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_28 = `"Male Spanish Low-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_29 = `"Male Spanish Low-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_30 = `"Male Spanish Low-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_31 = `"Male Spanish Low-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_32 = `"Male Spanish Low-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_33 = `"Male Moroccan High-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_34 = `"Male Moroccan High-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_35 = `"Male Moroccan High-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_36 = `"Male Moroccan High-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_37 = `"Male Moroccan High-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_38 = `"Male Moroccan High-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_39 = `"Male Moroccan High-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_40 = `"Male Moroccan High-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_41 = `"Male Moroccan High-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_42 = `"Male Moroccan High-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_43 = `"Male Moroccan High-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_44 = `"Male Moroccan High-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_45 = `"Male Moroccan High-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_46 = `"Male Moroccan High-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_47 = `"Male Moroccan High-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_48 = `"Male Moroccan High-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_49 = `"Male Moroccan Low-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_50 = `"Male Moroccan Low-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_51 = `"Male Moroccan Low-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_52 = `"Male Moroccan Low-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_53 = `"Male Moroccan Low-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_54 = `"Male Moroccan Low-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_55 = `"Male Moroccan Low-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_56 = `"Male Moroccan Low-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_57 = `"Male Moroccan Low-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_58 = `"Male Moroccan Low-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_59 = `"Male Moroccan Low-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_60 = `"Male Moroccan Low-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_61 = `"Male Moroccan Low-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_62 = `"Male Moroccan Low-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_63 = `"Male Moroccan Low-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_64 = `"Male Moroccan Low-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_65 = `"Female Spanish High-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_66 = `"Female Spanish High-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_67 = `"Female Spanish High-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_68 = `"Female Spanish High-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_69 = `"Female Spanish High-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_70 = `"Female Spanish High-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_71 = `"Female Spanish High-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_72 = `"Female Spanish High-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_73 = `"Female Spanish High-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_74 = `"Female Spanish High-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_75 = `"Female Spanish High-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_76 = `"Female Spanish High-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_77 = `"Female Spanish High-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_78 = `"Female Spanish High-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_79 = `"Female Spanish High-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_80 = `"Female Spanish High-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_81 = `"Female Spanish Low-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_82 = `"Female Spanish Low-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_83 = `"Female Spanish Low-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_84 = `"Female Spanish Low-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_85 = `"Female Spanish Low-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_86 = `"Female Spanish Low-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_87 = `"Female Spanish Low-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_88 = `"Female Spanish Low-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_89 = `"Female Spanish Low-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_90 = `"Female Spanish Low-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_91 = `"Female Spanish Low-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_92 = `"Female Spanish Low-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_93 = `"Female Spanish Low-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_94 = `"Female Spanish Low-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_95 = `"Female Spanish Low-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_96 = `"Female Spanish Low-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_97 = `"Female Moroccan High-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_98 = `"Female Moroccan High-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_99 = `"Female Moroccan High-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_100 = `"Female Moroccan High-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_101 = `"Female Moroccan High-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_102 = `"Female Moroccan High-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_103 = `"Female Moroccan High-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_104 = `"Female Moroccan High-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_105 = `"Female Moroccan High-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_106 = `"Female Moroccan High-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_107 = `"Female Moroccan High-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_108 = `"Female Moroccan High-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_109 = `"Female Moroccan High-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_110 = `"Female Moroccan High-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_111 = `"Female Moroccan High-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_112 = `"Female Moroccan High-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_113 = `"Female Moroccan Low-SES Good Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_114 = `"Female Moroccan Low-SES Good Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_115 = `"Female Moroccan Low-SES Good Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_116 = `"Female Moroccan Low-SES Good Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_117 = `"Female Moroccan Low-SES Good Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_118 = `"Female Moroccan Low-SES Good Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_119 = `"Female Moroccan Low-SES Good Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_120 = `"Female Moroccan Low-SES Good Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_121 = `"Female Moroccan Low-SES Bad Behaviour Good Essay High Essay-CC All passed"'
+.vlabs.Declare __D_122 = `"Female Moroccan Low-SES Bad Behaviour Good Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_123 = `"Female Moroccan Low-SES Bad Behaviour Good Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_124 = `"Female Moroccan Low-SES Bad Behaviour Good Essay Low Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_125 = `"Female Moroccan Low-SES Bad Behaviour Bad Essay High Essay-CC All passed"'
+.vlabs.Declare __D_126 = `"Female Moroccan Low-SES Bad Behaviour Bad Essay High Essay-CC 3 failed subjects"'
+.vlabs.Declare __D_127 = `"Female Moroccan Low-SES Bad Behaviour Bad Essay Low Essay-CC All passed"'
+.vlabs.Declare __D_128 = `"Female Moroccan Low-SES Bad Behaviour Bad Essay Low Essay-CC 3 failed subjects"'
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite    Å   ˛˚˛__000008                                                                                                                                              __000009                                                                                                                                              __000007 ay_bad                                                                                                                                       %6.4g                                                    %8.0g                                                    %82.0g                                                         @              ‡?      8@              `@  àA   Ä?  êA    @  `A   @@  †A   Ä@   A   †@  ÄA   ¿@  @A   ‡@  PA    A   A   A  pA    A  òA   0A  PA   @A  @A   PA   A   `A  `A   pA  PA   ÄA  A   àA  @A   êA  PA   òA  ÄA   †A  pA   ®A  `A   ∞A  ‡@   ∏A  êA   ¿A  òA   »A  `A   –A  PA   ÿA  ÄA   ‡A  PA   ËA  @A   A   A   ¯A  ‡@    B  0A   B  0A   B  PA   B  0A   B  PA   B  `A   B  @A   B  `A    B  ÄA   $B  PA   (B  @A   ,B  ÄA   0B  ¿A   4B  †A   8B  ÄA   <B  ‡@   @B  `A   DB  êA   HB  ÄA   LB   A   PB  ®A   TB  0A   XB   A   \B  A   `B  pA   dB  ÄA   hB  ÄA   lB  pA   pB  pA   tB   A   xB   A   |B  PA   ÄB  @A   ÇB  ‡@   ÑB  @A   ÜB  àA   àB   A   äB  †A   åB  pA   éB  PA   êB  êA   íB  @A   îB  A   ñB  `A   òB  @A   öB  @A   úB  A   ûB   A   †B  0A   ¢B   A   §B  ÄA   ¶B  PA   ®B  `A   ™B  @A   ¨B  `A   ÆB  †A   ∞B  @A   ≤B  †A   ¥B  ÄA   ∂B  àA   ∏B  pA   ∫B  Ä@   ºB  0A   æB  ÄA   ¿B  0A   ¬B  êA   ƒB  pA   ∆B  0A   »B  PA    B  pA   ÃB  àA   ŒB  †A   –B  A   “B  ‡@   ‘B   A   ÷B  PA   ÿB  `A   ⁄B   A   ‹B  A   ﬁB  àA   ‡B  pA   ‚B  @A   ‰B  PA   ÊB   A   ËB  pA   ÍB   A   ÏB  àA   ÓB  ‡@   B   A   ÚB  àA   ÙB  `A   ˆB  pA   ¯B   A   ˙B  ∏A   ¸B  pA   ˛B  ÄA    C       ?
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme K1345f378 
+.setscheme , scheme(white_ptol) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g K137b58e8 <UseScheme> K1345f378
+.sersets[1] = .__Map.K137b2f08.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.style.editstyle margin(b=0) editcopy
+.plotregion1.Declare plot1 = .y2xview_g.new , type(rbar) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof _height') xvariable(`.sersets[1].seriesof x')    plotregion(`.plotregion1.objkey') style(scheme p1bar) ybvar(`.sersets[1].seriesof zero')
+.plotregion1.plot1.style.setstyle, style(histogram)
+.plotregion1.plot1.bar_drop_to.setstyle , style(x)
+.plotregion1.plot1.bar_size = 1
+.plotregion1.plot1.register_with_scale
+.plotregion1.plot1.bar_size = 1*(100-0)/100
+.plotregion1.plot1.register_with_scale
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 1
+.n_plotregions = 1
+.last_style = 1
+.x_scales = `" "1""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.insert (legend = .legend_g.new, graphs(`.objkey') style(scheme)) rightof plotregion1 , ring(3) 
+.legend.style.editstyle box_alignment(E) editcopy
+.legend.holes = ""
+.legend.style.editstyle  cols(1) editcopy
+.legend.holes = ""
+.legend.style.editstyle  force_draw(no) force_nodraw(yes) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.repositionkeys
+.xaxis1.major.clear
+.xaxis1.major.range_ticks 1 128 2
+.xaxis1.reset_scale reinit
+.xaxis1.style.editstyle majorstyle( tickangle(vertical)  ) editcopy
+.xaxis1.title.edit , mtextq(`"`"Vignette ID"'"')   replace
+.yaxis1.title.edit , mtextq(`"`"Frequency"'"')   replace
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.insert (note = .sized_textbox.new, mtextq(`""') style(scheme note) ) below plotregion1 , ring(4) 
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme caption) ) below plotregion1 , ring(5) 
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme subtitle) ) above plotregion1 , ring(6) 
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.insert (title = .sized_textbox.new, mtextq(`""') style(scheme title) ) above plotregion1 , ring(7) 
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+.command = `"twoway (histogram vignette if __000000 [], ytitle(`"Frequency"') xtitle(`"Vignette ID"') legend(cols(1)) barwidth(-99) plotregion(margin(b=0))   legend(nodraw) frequency start(.5) width(1) xlabel(1(2)128, angle(vertical)) )     ||  ||"'
+.date = " 4 Jul 2024"
+.time = "18:18:41"
+.dta_file = "data/STATA/cleandataset.dta"
+.dta_date = " 9 Nov 2023 16:18"
+<EndItem>
