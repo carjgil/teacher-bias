@@ -6,7 +6,7 @@
 *Last Update: 04/07/2024
 *Software: STATA/MP 17
 ****************************************************************
-https://zenodo.org/badge/DOI/10.5281/zenodo.12666535.svg
+<a href="https://doi.org/10.5281/zenodo.12666535"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12666535.svg" alt="DOI"></a>
 
 * Here you can find the replication dofile in STATA format in the "code" folder and the raw and working datasets (including the codebook)
   of the teacher's bias in assessment experiment in the "data" folder:
